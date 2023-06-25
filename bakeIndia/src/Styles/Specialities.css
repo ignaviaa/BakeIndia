@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Corinthia&family=Oranienbaum&family=Rancho&display=swap');
+
+.speciality{
+    width:100%;
+    height:90vh;
+}
+.specialHeader{
+    font-family: 'Corinthia', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin: 40px;
+    line-height:14vh;
+}
+
+.specialHeader hr{
+    color: #CE1440;
+    width:50%;
+    margin:auto;
+
+}
+
+.icons{
+    /* flex:50%; */
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-top:12vh;
+    margin-bottom:8vh;
+}
+
+.icons .range{
+    background-color: #CE1440;
+    height:200px;
+    width:200px;
+    margin-left:30vh;
+    border-radius: 10px;
+    
+}
+
+.range img{
+    
+    display:block;
+    height:70px;
+    width:70px;
+    margin:auto;
+    padding:9vh;
+    
+    
+}
+
+.icons .donut{
+    background-color: #CE1440;
+    height:200px;
+    width:200px;
+    margin-left:30vh;
+    border-radius: 10px;
+}
+
+.donut img{
+    display: block;
+    height:55px;
+    width:55px;
+    margin:auto;
+    padding:10vh;
+    
+}
+
+.icons .cake{
+    background-color: #CE1440;
+    height:200px;
+    width:200px;
+    margin-left:30vh;
+    border-radius: 10px;
+}
+.cake img{
+    display: block;
+    height:70px;
+    width:70px;
+    margin:auto;
+    padding:9vh;
+    
+}
+
+.Head{
+    /* flex:50%; */
+    display: flex;
+    flex-direction: row;
+    width:80vw;
+    margin:auto;
+    gap:10vh;
+    text-align: center;
+}
+
+.VHeader{
+    margin-right: 6vh;
+    margin-left: 2vh;
+}
+
+.DHeader{
+    margin-right: 3vh;
+}
+.CHeader{
+    margin-right: 1vh;
+}
+.VHeader h2{
+    /* font-family: 'Rancho', cursive; */
+    /* font-family: 'Corinthia', cursive; */
+    font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+.VHeader p{
+    font-family: 'Alegreya', serif;
+}
+.DHeader h2{
+    /* font-family: 'Rancho', cursive; */
+    /* font-family: 'Corinthia', cursive; */
+    font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+    font-weight: 100;
+    /* color:blue; */
+}
+.DHeader p{
+    font-family: 'Alegreya', serif;
+}
+.CHeader h2{
+    /* font-family: 'Rancho', cursive; */
+    /* font-family: 'Corinthia', cursive; */
+    font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+.CHeader p{
+    font-family: 'Alegreya', serif;
+}
+
+
+
+
+
+
+
+

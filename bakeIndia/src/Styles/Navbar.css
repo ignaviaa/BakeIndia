@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+.navContainer{
+    padding:0;
+    margin:0;
+}
+.detail{
+    display: flex;
+    height:7vh;
+    width:100%;
+    background-color:#CE1440;
+    
+}
+.detail p{
+    color: white;
+    margin:15px 5px 5px 100px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+
+
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+
+.navbar .logo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top:10px;
+}
+
+.navbar .logo img{
+    display: inline;
+    margin: auto ;
+    height: 100%;
+    width: auto;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+.navbar .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+}
+
+.navbar .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oranienbaum', serif;
+    font-size: 25px;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Corinthia&family=Oranienbaum&family=Rancho&display=swap');
+
+.customCake{
+    background-color:#FFEAE9 ;
+    height:70vh;
+}
+.twot{
+   display: flex;
+    height:70vh;
+  
+}
+
+
+.customdetail h2{
+    /* font-family: 'Corinthia', cursive; */
+    font-family: 'Alegreya', serif;
+
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 20vh;
+}
+
+.customsub{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+   
+
+}
+
+.customsub span{
+    line-height: 10vh;
+}

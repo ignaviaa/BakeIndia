@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Corinthia&family=Oranienbaum&family=Rancho&display=swap');
+
+
+.bar {
+  margin-bottom: 5vh;
+    overflow: hidden;
+  width: 100%;
+  padding: 25px 0;
+  font-family: 'Oranienbaum', serif;
+    font-size: 30px;
+  background-color:#CE1440;
+  color: white;
+
+ 
+}
+
+.bar_content {
+  display: block; 
+  transform: translateX(100%); 
+  animation: move 25s linear infinite ;
+}
+
+@keyframes move {
+  to { transform: translateX(-60%); }
+}
