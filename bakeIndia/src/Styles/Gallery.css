@@ -3,13 +3,14 @@
 .galleryContainer{
     height:100vh;
     width:100%;
-    background-color: #FFEAE9;
+    
+   
 }
 .gallery{
     margin: auto;
     font-family: 'Corinthia', cursive;
     font-size: 60px;
-    padding:30px;
+    padding:60px;
     text-align: center;
 
 }
@@ -34,6 +35,6 @@
 }
 
 .pic1{
-    background-color: #FFEAE9;
+    /* background-color: #FFEAE9; */
     margin:5vh;
 }

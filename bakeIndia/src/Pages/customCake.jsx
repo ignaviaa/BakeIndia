@@ -4,7 +4,7 @@ import "../Styles/customCake.css"
 
 const Custom = () => {
   return (
-    <div className="customCake">
+    <div className="customCake" >
         <div className="customContainer">
           <div className="twot">
             <img src ={twotier} />

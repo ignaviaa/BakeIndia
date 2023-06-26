@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-parallax';
 import CoverImage from "../assets/Cover/cover4.png"
 import About from "../Pages/About"
 import Specialities from '../Pages/Specialities'
@@ -12,7 +13,9 @@ import "../styles/Home.css"
 const Home = () => {
   return (
     <>
-    <div className='home' style={{ backgroundImage: `url(${CoverImage})`}}></div>
+     <Parallax className='home' bgImage={CoverImage} strength={400}></Parallax>
+     
+    
     <About />
     <Specialities />
     <Gallery />
@@ -20,6 +23,7 @@ const Home = () => {
     <Animation />
     <Custom />
     <Footer />
+  
     </>
 
   )

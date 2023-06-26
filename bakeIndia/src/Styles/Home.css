@@ -1,14 +1,14 @@
 .home{
     width:100%;
     height:100vh;
-    display:flex;
-    align-items: left;
+    /* display:flex; */
+    /* align-items: left; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transform: scaleX(-1);
     position:relative;
-    bottom:60px;
+    bottom:80px;
     z-index: -1;
     
 }

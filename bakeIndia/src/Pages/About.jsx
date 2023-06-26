@@ -1,10 +1,12 @@
 import React from 'react'
 import CoverImage2 from "../assets/Cover/cover3.png"
+// import cupcake from "../assets/Cover/cpasty.jpeg"
+// import cupcake from "../assets/Cover/cupcake.png"
 import "../Styles/About.css"
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" >
         <div className="header">
             About Us<hr />
         </div>

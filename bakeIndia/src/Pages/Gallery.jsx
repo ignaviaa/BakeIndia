@@ -8,16 +8,11 @@ import cake5 from "../assets/Cakes/6.png"
 import cake6 from "../assets/Cakes/8.png"
 
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
-];
+
 
 const Gallery = () => {
   return (
-    <div className="galleryContainer">
+    <div className="galleryContainer" >
     <div className='gallery'>
         Gallery <hr /></div>
        

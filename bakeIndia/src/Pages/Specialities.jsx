@@ -1,13 +1,15 @@
 import React from 'react'
+import { Parallax } from 'react-parallax';
 import "../Styles/Specialities.css"
 import variety from "../assets/Icons/pastry.png"
 import Donut from "../assets/Icons/donut.png"
 import cake from "../assets/Icons/wedding-cake.png"
+import creme from "../assets/Cover/cream.svg"
 
 
 const Specialities = () => {
   return (
-    <div className='speciality'>
+       <Parallax className='speciality' bgImage={creme} strength={400}>
       <div className="container">
         <div className="specialHeader">
             Our Specialities<hr />
@@ -44,7 +46,8 @@ const Specialities = () => {
         </div>
         </div>
 
-      </div>
+
+      </Parallax>
 
     
         
