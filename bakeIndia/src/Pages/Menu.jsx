@@ -5,7 +5,7 @@ import cupcover from "../assets/Cover/cupcover.jpeg"
 import "../Styles/Menu.css"
 const Menu = () => {
   return (
-    <div className='menu' style={{ backgroundImage: `url(${cupcover})`}}>
+    <div className='menu'>
         <h1 className='menuTitle'>CATALOUGE</h1>
         <div className="menuList">
             {Cakes.map((menuItem, key) => {

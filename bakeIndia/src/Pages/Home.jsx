@@ -13,7 +13,13 @@ import "../styles/Home.css"
 const Home = () => {
   return (
     <>
-     <Parallax className='home' bgImage={CoverImage} strength={400}></Parallax>
+     <Parallax className='home' bgImage={CoverImage} strength={400}>
+     <div className="contento">
+            <span className="imgtxt">
+            Indulge in the taste of India's finest baked delights at <br /> <h3>BAKE INDIA</h3>
+        </span>
+        </div>
+     </Parallax>
      
     
     <About />

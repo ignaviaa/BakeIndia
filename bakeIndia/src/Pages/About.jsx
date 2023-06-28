@@ -7,6 +7,7 @@ import "../Styles/About.css"
 const About = () => {
   return (
     <div className="about" >
+      <div className="wave"></div>
         <div className="header">
             About Us<hr />
         </div>

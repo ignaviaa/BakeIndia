@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Corinthia&family=Oranienbaum&family=Rancho&display=swap');
 
 .about{
-  margin-top: -13vh;
-  margin-bottom: -7vh;
+  margin-top: -12vh;
+  margin-bottom: -5vh;
   background-image: linear-gradient(#FEBAC7,#FD9AC8);
 }
+
+.wave{
+    height: 10px;
+    position: relative;
+    background-color: #FEBAC7;
+    bottom:5px;
+  }
+  
+  .wave::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #FEBAC7 13px);
+  }
+  .wave::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #FEBAC7 12px, transparent 13px);
+      
+  }
 .header {
     font-family: 'Corinthia', cursive;
     font-size: 60px;
@@ -26,9 +57,9 @@
 .rightrec{
     background-color: #CE1440;
     width:50vw;
-    height:630px;
+    height:90vh;
     position: absolute;
-    top:157%;
+    top:160%;
     left:45%;
     margin-top: 15vh;
     border-radius: 10px;

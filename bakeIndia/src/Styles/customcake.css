@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Corinthia&family=Oranienbaum&family=Rancho&display=swap');
 
 .customCake{
-    background-color:#FFEAE9 ;
+    background-color:#FEBAC7 ;
     height:70vh;
 }
 .twot{
    display: flex;
-    height:70vh;
+    height:60vh;
   
+}
+
+.twot img{
+    border-radius: 10px;
+    position: relative;
+    left:30px;
 }
 
 

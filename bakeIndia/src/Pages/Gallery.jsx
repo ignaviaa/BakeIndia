@@ -6,13 +6,17 @@ import cake3 from "../assets/Cakes/5.png"
 import cake4 from "../assets/Cakes/11.png"
 import cake5 from "../assets/Cakes/6.png"
 import cake6 from "../assets/Cakes/8.png"
+import cupcake from "../assets/Cover/cupcake.png"
 
 
 
 
 const Gallery = () => {
   return (
-    <div className="galleryContainer" >
+<>
+   
+    <div className="galleryContainer" style={{ backgroundImage: `url(${cupcake})` }} >
+    <div className="wave3"></div>
     <div className='gallery'>
         Gallery <hr /></div>
        
@@ -37,9 +41,14 @@ const Gallery = () => {
             <img src={cake5} />
         </div>
 
+
         </div>
+        
         </div>
+        <div className="wave2"></div>
+        </>
   )
+
 }
 
 export default Gallery

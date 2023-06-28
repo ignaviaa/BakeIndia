@@ -2,10 +2,13 @@
 
 .galleryContainer{
     height:100vh;
-    width:100%;
-    
+  background-repeat: no-repeat;
+  background-size: auto;
+ /* background-position: 50px 150px;  */
+ background-position:top ;
    
 }
+
 .gallery{
     margin: auto;
     font-family: 'Corinthia', cursive;
@@ -38,3 +41,66 @@
     /* background-color: #FFEAE9; */
     margin:5vh;
 }
+
+.wave2{
+    height: 10px;
+    position: relative;
+    background-color: #FEBAC7;
+    bottom:5px;
+  }
+  
+  .wave2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+  }
+  .wave2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+      
+  }
+
+  .wave3{
+    height: 10px;
+    position: relative;
+    
+    bottom:5px;
+
+  }
+  
+  .wave3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 15px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #BDE5E6 13px);
+  }
+  .wave3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #BDE5E6 12px, transparent 13px);
+      
+  }
