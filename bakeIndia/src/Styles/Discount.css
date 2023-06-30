@@ -14,10 +14,10 @@
 .disimg img{
     /* margin-top:15px; */
     height:70vh;
-    width:30%;
+    width:25%;
     float:right;
     position: relative;
-    right:18%;
+    right:19%;
     border-radius: 10px;
 
 
@@ -31,7 +31,7 @@
     height:495px;
     position: absolute;
     border-radius: 10px;
-    left:15%;
+    left:19%;
  
 }
 .redrec .sub{

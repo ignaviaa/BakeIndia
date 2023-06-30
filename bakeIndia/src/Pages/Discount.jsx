@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Discount.css"
-import donut from "../assets/Cover/donuts.jpeg"
+// import donut from "../assets/Cover/donuts.jpeg"
+import donut from "../assets/Cover/donutz.jpeg"
 
 const Discount = () => {
   return (

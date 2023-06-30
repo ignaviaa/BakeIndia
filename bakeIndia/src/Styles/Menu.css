@@ -5,9 +5,10 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     flex-direction: column;
+    gap:2px;
 
   }
   .menu .menuTitle {
@@ -16,6 +17,7 @@
     margin-top: 70px;
     margin-bottom: 10vh;
     margin-left: 8vh;
+    margin-right:8vh;
     background-color: #CE1440;
     color: white;
     padding:3vh;
@@ -26,7 +28,7 @@
     width: 70vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
   }
   
@@ -53,15 +55,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
+  }
+
+  .menuList{
+    padding:40px;
+    border-radius: 10px;
+   
   }
   
   .menuItem h1,
   .menuItem p {
     text-align: center;
     font-family: 'Alegreya', serif;
-    background-color: #FFEAE9;
-    padding:10px;
-    border-radius: 2px;
+
+    
 
   }
   
