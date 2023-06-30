@@ -6,15 +6,16 @@
     height:110vh;
     display:flex;
     /* align-items: left; */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transform: scaleX(-1);
-    position:relative;
+   
     bottom:80px;
     z-index: -1;
     
 }
+
+
 .contento {display: flex;
   justify-content: center;
   position: absolute;

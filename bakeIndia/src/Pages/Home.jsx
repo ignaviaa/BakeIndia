@@ -1,6 +1,7 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
-import CoverImage from "../assets/Cover/cover4.png"
+// import CoverImage from "../assets/Cover/cover4.png"
+import CoverImage from "../assets/Cover/cover9.jpeg"
 import About from "../Pages/About"
 import Specialities from '../Pages/Specialities'
 import Gallery from '../Pages/Gallery'

@@ -3,13 +3,13 @@
 .about{
   margin-top: -12vh;
   margin-bottom: -5vh;
-  background-image: linear-gradient(#FEBAC7,#FD9AC8);
+  background-image: linear-gradient(#FFE4E3,#FEBAC7);
 }
 
 .wave{
     height: 10px;
     position: relative;
-    background-color: #FEBAC7;
+    background-color: #FFE4E3;
     bottom:5px;
   }
   
@@ -22,7 +22,7 @@
     height: 20px;
     background-size: 20px 20px;
     background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px, #FEBAC7 13px);
+     radial-gradient(circle at 10px -5px, transparent 12px, #FFE4E3 13px);
   }
   .wave::after{
     content: "";
@@ -33,7 +33,7 @@
     height: 25px;
     background-size: 40px 20px;
     background-image:
-      radial-gradient(circle at 10px 15px, #FEBAC7 12px, transparent 13px);
+      radial-gradient(circle at 10px 15px, #FFE4E3 12px, transparent 13px);
       
   }
 .header {
@@ -48,9 +48,11 @@
 }
 
 .aboutimg img{
-    height:95vh;
-      margin-left: 95px;
- 
+    height:90vh;
+      margin-left: 30vh;
+position: relative;
+      border-radius: 20px 0 0 20px;
+ bottom:20px;
     margin-bottom: 70px;
 } 
 
@@ -60,7 +62,7 @@
     height:90vh;
     position: absolute;
     top:160%;
-    left:45%;
+    left:42%;
     margin-top: 15vh;
     border-radius: 10px;
 }

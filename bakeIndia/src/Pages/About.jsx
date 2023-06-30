@@ -1,7 +1,8 @@
 import React from 'react'
-import CoverImage2 from "../assets/Cover/cover3.png"
+// import CoverImage2 from "../assets/Cover/cover3.png"
 // import cupcake from "../assets/Cover/cpasty.jpeg"
 // import cupcake from "../assets/Cover/cupcake.png"
+import CoverImage2 from "../assets/Cover/cupcake5.jpeg"
 import "../Styles/About.css"
 
 const About = () => {
