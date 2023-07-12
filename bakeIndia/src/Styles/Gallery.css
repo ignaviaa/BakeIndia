@@ -6,7 +6,7 @@
   background-size: auto;
  
  background-position:top ; */
-   background-color: #BEFBFF;
+   background-color:#FFE4E3 ;
 }
 
 .gallery{
@@ -90,7 +90,7 @@
     height: 15px;
     background-size: 20px 20px;
     background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px,#BEFBFF 13px);
+     radial-gradient(circle at 10px -5px, transparent 12px,#FFE4E3 13px);
   }
   .wave3::after{
     content: "";
@@ -101,6 +101,6 @@
     height: 20px;
     background-size: 40px 20px;
     background-image:
-      radial-gradient(circle at 10px 15px,#BEFBFF  12px, transparent 13px);
+      radial-gradient(circle at 10px 15px,#FFE4E3  12px, transparent 13px);
       
   }

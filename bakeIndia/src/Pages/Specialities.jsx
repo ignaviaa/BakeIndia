@@ -4,12 +4,13 @@ import "../Styles/Specialities.css"
 import variety from "../assets/Icons/pastry.png"
 import Donut from "../assets/Icons/donut.png"
 import cake from "../assets/Icons/wedding-cake.png"
-import creme from "../assets/Cover/cream13.jpeg"
+import creme from "../assets/Cover/chocob.jpeg"
 
 
 const Specialities = () => {
   return (
        <Parallax className='speciality' bgImage={creme} strength={400}>
+          
       <div className="container">
         <div className="specialHeader">
             Our Specialities<hr />

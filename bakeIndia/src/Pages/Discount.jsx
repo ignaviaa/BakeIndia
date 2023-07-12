@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/Discount.css"
-import donut from "../assets/Cover/donuts.jpeg"
+import donut from "../assets/Cover/donut0.jpeg"
 // import donut from "../assets/Cover/donutz.jpeg"
 // import deco from "../assets/Cover/cover8.jpeg"
 

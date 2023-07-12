@@ -1,11 +1,11 @@
 import React from 'react'
-import twotier from "../assets/Cover/twotier.jpeg"
+import twotier from "../assets/Cover/footer4.jpeg"
 import "../Styles/customCake.css"
 
 const Custom = () => {
   return (
     <div className="customCake" >
-            <div className="wave"></div>
+            <div className="wave3"></div>
         <div className="customContainer">
           <div className="twot">
             <img src ={twotier} />

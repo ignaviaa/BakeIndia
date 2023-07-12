@@ -3,13 +3,13 @@
 .about{
   margin-top: -12vh;
   margin-bottom: -5vh;
-  background-image: linear-gradient(#FFE4E3,#FEBAC7);
+  background-color: #411900;
 }
 
 .wave{
     height: 10px;
     position: relative;
-    background-color: #FFE4E3;
+    background-color: #411900;
     bottom:5px;
   }
   
@@ -22,7 +22,7 @@
     height: 20px;
     background-size: 20px 20px;
     background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px, #FFE4E3 13px);
+     radial-gradient(circle at 10px -5px, transparent 12px, #411900 13px);
   }
   .wave::after{
     content: "";
@@ -33,7 +33,7 @@
     height: 25px;
     background-size: 40px 20px;
     background-image:
-      radial-gradient(circle at 10px 15px, #FFE4E3 12px, transparent 13px);
+      radial-gradient(circle at 10px 15px, #411900 12px, transparent 13px);
       
   }
 .header {
@@ -44,6 +44,7 @@
     text-align: center;
     margin-bottom: 40px;
     line-height:13vh;
+    color:white;
 
 }
 

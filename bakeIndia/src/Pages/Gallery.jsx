@@ -7,7 +7,7 @@ import cake4 from "../assets/Cakes/11.png"
 import cake5 from "../assets/Cakes/6.png"
 import cake6 from "../assets/Cakes/8.png"
 // import cloud from "../assets/Cover/12.jpg"
-import cupcake from "../assets/Cover/cupcake.png"
+
 
 
 

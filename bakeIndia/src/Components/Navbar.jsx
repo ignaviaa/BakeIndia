@@ -12,7 +12,8 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="left">
             <Link to = "/"> HOME </Link>
-            <Link to = "/about"> ABOUT </Link>
+            {/* <Link to = "/" > ABOUT </Link> */}
+            <a href={'#about'}></a>
             <Link to = "/catalogue"> CATALOGUE </Link>
         </div>
         <div className="logo">

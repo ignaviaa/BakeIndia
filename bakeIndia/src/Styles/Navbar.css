@@ -70,7 +70,7 @@
     height: 30px;
     position: relative;
     background: white;
-    bottom: 4rem;
+    bottom: 4.5rem;
 
   }
   
@@ -82,11 +82,10 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-repeat: repeat;
-    height: 10px;
+    height: 20px;
     background-size: 20px 20px;
     background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px, #FFE4E3 13px);
+     radial-gradient(circle at 10px -5px, transparent 12px, #411900 13px);
   }
   .wave0::after{
     content: "";
@@ -94,11 +93,9 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-repeat: repeat;
-    height: 15px;
+    height: 25px;
     background-size: 40px 20px;
     background-image:
-      radial-gradient(circle at 10px 15px, #FFE4E3 12px, transparent 13px);
+      radial-gradient(circle at 10px 15px, #411900 12px, transparent 13px);
+      
   }
-
-  
