@@ -1,0 +1,35 @@
+.outlet{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    margin:70px;
+    background-color: #411900;
+    border-radius: 20px;
+  }
+  
+  .outlet .oleft {
+    height:80vh;
+    width:30vw;
+   margin: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .outlet .oright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .outlet .oright h1 {
+    font-family: 'Oranienbaum', serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+    color:white;
+    
+  }
+  

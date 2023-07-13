@@ -1,4 +1,4 @@
-import cake1 from "../assets/Cakes/1.png";
+import cake1 from "../assets/Cakes/cake2.jpeg";
 import cake2 from "../assets/Cakes/2.png";
 import cake3 from "../assets/Cakes/3.png";
 import cake4 from "../assets/Cakes/4.png";

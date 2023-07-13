@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Menu from './Pages/Menu';
+import Outlet from './Pages/Outlet';
 
 import './App.css'
 import About from './Pages/About';
@@ -20,6 +21,7 @@ function App() {
             <Route exact path='/about' element ={<About />} />
             <Route exact path="/catalogue" element={<Menu />} />
             <Route exact path="/contact" element={<Contact  />} />
+            <Route exact path="/outlets" element={<Outlet  />} />
         </Routes>
         </Router>
        </div>
