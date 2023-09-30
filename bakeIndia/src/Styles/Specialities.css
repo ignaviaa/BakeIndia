@@ -37,8 +37,8 @@
 
 .icons{
    display: flex;
-   width: 80vw;
-    gap:20em;
+   width: 100vw;
+   gap:20%;
     justify-content: center;
     align-items: center;
 }
@@ -86,14 +86,14 @@
     height:70px;
     width:70px;
     margin:auto;
-    
 }
 
 
 
 .Head{
     display: flex;
-    width: 100vw;
+    width: 90vw;
+    gap:10%;
     text-align: center;
     justify-content: center;
     background-color: white;
@@ -103,18 +103,20 @@
 .VHeader{
     padding: 20px;
     border-radius: 10px  ;
-    width:80%;
+    width:50%;
+
+  
 }
 
 .DHeader{
     padding: 20px;
     border-radius: 10px;
-    width:80%;
+    width:50%;
 }
 .CHeader{
     padding: 20px;
     border-radius: 10px;
-    width:80%;
+    width:50%;
 
 }
 .VHeader h2{
@@ -124,6 +126,7 @@
 }
 .VHeader p{
     font-family: 'Alegreya', serif;
+ 
 }
 .DHeader h2{
   
