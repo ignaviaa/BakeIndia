@@ -6,19 +6,21 @@ const Custom = () => {
   return (
     <div className="customCake" >
             <div className="wave3"></div>
-        <div className="customContainer">
+      
           <div className="twot">
             <img src ={twotier} />
+            </div>
+           
             <div className="customdetail">
        <h2> Customized Cake <br /> On Order delivery </h2>
+      <div className="subx">
+        <p>Indulge in Exquisite Delights, Crafted Just for You!<br /> Order Your Dream Cake Today from Bake India and Savor the Sweetest Moments of Life.<br /> <span>Delivered with Love ♡</span></p>
         </div>
-        <div className="customsub">
-        Indulge in Exquisite Delights, Crafted Just for You!<br /> Order Your Dream Cake Today from Bake India and Savor the Sweetest Moments of Life.<br /> <span>Delivered with Love ♡</span>
+        <button>Order Now</button>
         </div>
-          </div>
+        </div>
         
-        </div>
-    </div>
+   
   )
 }
 

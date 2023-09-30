@@ -15,6 +15,8 @@ const Specialities = () => {
         <div className="specialHeader">
             Our Specialities<hr />
         </div>
+        </div>
+        <div className="descContainer">
         <div className="icons">
           <div className="range">
             <img src={variety} />
@@ -46,6 +48,7 @@ const Specialities = () => {
         </div>
         </div>
         </div>
+      
 
 
       </Parallax>

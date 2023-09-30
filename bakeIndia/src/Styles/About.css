@@ -2,7 +2,7 @@
 
 .about{
   margin-top: -12vh;
-  margin-bottom: -5vh;
+  padding-bottom: 15vh;
   background-color: #411900;
 }
 
@@ -48,24 +48,35 @@
 
 }
 
+.Acontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.aboutimg{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+
 .aboutimg img{
     height:90vh;
-      margin-left: 30vh;
-position: relative;
-      border-radius: 20px 0 0 20px;
- bottom:20px;
-    margin-bottom: 70px;
+    border-radius: 20px 0 0 20px;
+    bottom:20px;
 } 
 
 .rightrec{
     background-color: #CE1440;
-    width:50vw;
-    height:90vh;
-    position: absolute;
-    top:160%;
-    left:42%;
-    margin-top: 15vh;
-    border-radius: 10px;
+    height: 90vh;
+    width: 40%;
+    border-radius: 0 10px 10px 0px;
+    align-items: center;
+   
+
 }
 
 .title{
@@ -74,7 +85,7 @@ position: relative;
     font-size: 50px;
     text-align: center;
     margin: 50px;
-  
+  margin-top: 2em;
 
 }
 
@@ -89,7 +100,7 @@ position: relative;
     color: white;
     font-family: 'Alegreya', serif;
     margin:80px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 

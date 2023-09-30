@@ -3,38 +3,62 @@
 .customCake{
     background-color:#FFE4E3 ;
     height:70vh;
+    display: flex;
 }
+
 .twot{
-   display: flex;
+    display: flex;
     height:60vh;
-  
+    flex-direction: row;
+    width: 25%;
 }
 
 .twot img{
     border-radius: 10px;
     position: relative;
     left:30px;
+    margin-top: 20px;
+}
+
+.customdetail{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.customdetail p{
+    line-height: 25px;
 }
 
 
 .customdetail h2{
     /* font-family: 'Corinthia', cursive; */
     font-family: 'Alegreya', serif;
-
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
-    margin-left: 20vh;
+}
+
+.customdetail button{
+    padding: 20px;
+    width: 10em;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    margin-top: 60px;
+    background-color: #CE1440;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.subx{
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .customsub{
     font-family: 'Alegreya', serif;
     font-size: 20px;
-    margin-left: 20vh;
-    margin-top: 10vh;
-   
-
-}
-
-.customsub span{
-    line-height: 10vh;
+    margin-top: 20px;
 }

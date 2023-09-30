@@ -8,9 +8,6 @@ const Discount = () => {
   return (
 <div className="dContainer">
     <div className='discount'>
-        <div className="disimg">
-            <img src={donut} /></div>
-
             <div className="redrec">
                 <div className="sub">
                 Get upto <br /> <span>50% </span>off
@@ -22,6 +19,9 @@ const Discount = () => {
                   #BakeIndia
                   <hr />
                 </div>
+                </div>
+                <div className="disimg">
+            <img src={donut} />
             </div>
         </div>
         </div>

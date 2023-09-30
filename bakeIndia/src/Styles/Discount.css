@@ -8,32 +8,28 @@
 
 
 .discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 10vh;
- 
+}
+.disimg{
+    width: 25vw;
 }
 .disimg img{
-    /* margin-top:15px; */
     height:70vh;
-    width:25%;
-    float:right;
-    position: relative;
-    right:19%;
-    border-radius: 10px;
-
-
-    
+    width:100%;
+    border-radius: 0px 10px 10px 0px; 
 }
 
 .redrec{
-
     background-color: #CE1440;
-    width:40vw;
-    height:495px;
-    position: absolute;
-    border-radius: 10px;
-    left:19%;
- 
+    border-radius: 10px 0px 0px 10px;
+    height: 70vh;
+    width: 35%;
+    align-items: center;
 }
+
 .redrec .sub{
     margin:50px;
 }
@@ -41,24 +37,23 @@
 .sub {
     color: white;
     font-family: 'Alegreya', serif;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .sub span{
-    font-size: 60px;
+    font-size: 80px;
 }
 .details{
     color: white;
     font-family: 'Alegreya', serif;
-    font-size: 20px;
+    font-size: 25px;
     margin:50px;
-    width:32vw;
 }
 
 .tag{
     color: white;
     font-family: 'Alegreya', serif;
-    font-size: 30px;
+    font-size: 35px;
     margin:50px;
     line-height: 10vh;
 
@@ -66,6 +61,7 @@
 
 .tag hr{
     color: white;
+    width: 30%;
 }
 
 

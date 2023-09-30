@@ -1,11 +1,11 @@
 import React from 'react'
 import "../Styles/Gallery.css"
-import cake1 from "../assets/Cakes/1.png"
-import cake2 from "../assets/Cakes/4.png"
-import cake3 from "../assets/Cakes/5.png"
-import cake4 from "../assets/Cakes/11.png"
-import cake5 from "../assets/Cakes/6.png"
-import cake6 from "../assets/Cakes/8.png"
+import cake1 from "../assets/Cakes/1.jpg"
+import cake2 from "../assets/Cakes/2.jpg"
+import cake3 from "../assets/Cakes/3.jpg"
+// import cake4 from "../assets/Cakes/11.png"
+// import cake5 from "../assets/Cakes/6.png"
+// import cake6 from "../assets/Cakes/8.png"
 // import cloud from "../assets/Cover/12.jpg"
 
 
@@ -32,7 +32,7 @@ const Gallery = () => {
         <div className="pic1">
             <img src={cake3} />
         </div>
-        <div className="pic1">
+        {/* <div className="pic1">
             <img src={cake4} />
         </div>
         <div className="pic1">
@@ -40,7 +40,7 @@ const Gallery = () => {
         </div>
         <div className="pic1">
             <img src={cake5} />
-        </div>
+        </div> */}
 
 
         </div>

@@ -12,9 +12,10 @@ const About = () => {
         <div className="header">
             About Us<hr />
         </div>
-        
+    <div className="Acontainer">
     <div className="aboutimg">
       <img src={CoverImage2} />
+    
       <div className="rightrec">
         <div className="title">
             Welcome to
@@ -28,7 +29,9 @@ const About = () => {
         </div>
         <hr />
       </div>
-    </div>
+      </div>
+      </div>
+   
     
     
     </div>

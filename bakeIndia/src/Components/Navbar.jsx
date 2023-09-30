@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to = "/contact"> CONTACT US </Link>
 
         </div>
-       <div className="ok"></div>
+
 
     </div>
     <div className="wave0"></div>
